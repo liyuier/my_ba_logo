@@ -53,7 +53,7 @@ export default class LogoCanvas {
     }
     //guide line
     if (import.meta.env.DEV) {
-      c.strokeStyle = '#00cccc';
+      c.strokeStyle = '#fff';
       c.lineWidth = 1;
       c.beginPath();
       c.moveTo(this.canvasWidthL, 0);
